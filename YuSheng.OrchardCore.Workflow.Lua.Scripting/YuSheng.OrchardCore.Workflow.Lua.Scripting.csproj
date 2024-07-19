@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <TargetFramework>net8.0</TargetFramework>
+    <Title>YuSheng.OrchardCore.Workflow.Lua.Scripting</Title>
+    <Description>
+      Provides lua scripting in workflow.
+    </Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>spike</Authors>
+    <Company>spike</Company>
+    <Copyright>spike @ 2024</Copyright>
+    <PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Lua.Scripting</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
+    <RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Lua.Scripting</RepositoryUrl>
+    <PackageTags>orchardcore,python,workflow</PackageTags>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="..\horse-face-front-view-sketch.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="KeraLua" Version="1.4.1" />
+    <PackageReference Include="NLua" Version="1.7.3" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.ContentManagement.Display" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.DisplayManagement.Abstractions" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.DisplayManagement.Liquid" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.Liquid.Abstractions" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.Workflows.Abstractions" Version="1.8.3" />
+  </ItemGroup>
+
+</Project>
