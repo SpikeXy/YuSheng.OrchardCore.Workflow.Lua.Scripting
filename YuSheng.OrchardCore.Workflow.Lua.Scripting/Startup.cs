@@ -6,7 +6,7 @@ using YuSheng.OrchardCore.Workflow.Lua.Scripting.Drivers;
 
 namespace YuSheng.OrchardCore.Workflow.Lua.Scripting
 {
-    [Feature("OrchardCore.Workflows")]
+    [Feature("YuSheng.OrchardCore.Workflow.Lua.Scripting")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)

@@ -4,11 +4,11 @@ using OrchardCore.Modules.Manifest;
     Name = "YuSheng OrchardCore Workflow Lua Scripting",
     Author = "spike",
     Website = "",
-    Version = "0.0.2"
+    Version = "0.0.3"
 )]
 
 [assembly: Feature(
-    Id = "YuSheng OrchardCore Workflow Lua Scripting",
+    Id = "YuSheng.OrchardCore.Workflow.Lua.Scripting",
     Name = "YuSheng OrchardCore Workflow Lua Scripting",
     Description = "Provides lua scripting ",
     Dependencies = new[] { "OrchardCore.Workflows" },
